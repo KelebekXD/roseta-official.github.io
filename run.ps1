@@ -4,7 +4,7 @@ param
     [switch]$mirror
 )
 
-function Run-SpotX {
+function Run-Roseta {
 
     param(
         [string]$params
@@ -48,4 +48,4 @@ function Run-SpotX {
 }
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12;
-Run-SpotX -params $args
+Run-Roseta -params $args
