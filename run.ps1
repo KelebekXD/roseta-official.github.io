@@ -18,7 +18,7 @@ function Run-Roseta {
         $params += " -m"
     }
     else {
-        $url = 'https://raw.githubusercontent.com/SpotX-Official/SpotX/main/run.ps1'
+        $url = 'https://github.com/KelebekXD/roseta-official.github.io/blob/main/run.ps1'
     }
 
     for ($retry = 1; $retry -le $maxRetryCount; $retry++) {
